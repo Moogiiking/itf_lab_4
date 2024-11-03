@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-image: url('back.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Georgia', serif; 
+}
+
+h2 {
+    border-bottom: 2px solid #0e62c2;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+    border-top: 1px solid #0e62c2; 
+    padding-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+.skills ul,
+.involvement p {
+    padding-left: 20px;
+}
+
+.skills li,
+.involvement p {
+    margin-bottom: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
